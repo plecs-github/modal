@@ -1,0 +1,17 @@
+html {
+    background-color: azure;
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(26, 50, 128);
+    padding-left: 50px;
+}
+.btn-holder {
+    padding-left: 20px;
+}
+.btn-opening-modal {
+width: 150px;
+height: 50px;
+font-size: 15px;
+}
