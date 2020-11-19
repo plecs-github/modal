@@ -2,7 +2,7 @@ let modal = document.querySelector('#myModal');
 
 let btn = document.querySelector('.myBtn');
 
-let span = document.getElementsByClassName("close")[0];
+let span = document.querySelector('.close');
 
 let btncancel = document.querySelector('#btn-cancel');
 
