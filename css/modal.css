@@ -41,12 +41,27 @@ body {
 .modal-content {
   background-color:rgb(255,255,255);
   margin: auto;
-  padding: 40px;
-  width: 70%;
+  padding-top: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  width: 100%;
   text-align: justify;
   line-height: 1.6;
+  box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
+  animation-name: modalToTop;
+  animation-duration: 0.9s
 }
 
+@keyframes modalToTop {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@media only screen and (min-width: 560px) {
+  .modal-content {width: 50%;}
+
+}
 .close {
   color: rgb(134, 130, 132);
   float: right;
@@ -55,7 +70,7 @@ body {
 }
 
 .close:hover {
-  color: #000;
+  color: rgb(0,0,0);
   text-decoration: none;
   cursor: pointer;
 }
